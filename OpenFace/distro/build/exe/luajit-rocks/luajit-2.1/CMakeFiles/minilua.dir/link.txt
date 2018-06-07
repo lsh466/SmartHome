@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -DNDEBUG   CMakeFiles/minilua.dir/src/host/minilua.c.o  -o minilua -rdynamic -lm 

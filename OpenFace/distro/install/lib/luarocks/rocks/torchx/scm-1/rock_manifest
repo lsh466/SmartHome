@@ -1,0 +1,26 @@
+rock_manifest = {
+   doc = {
+      LICENSE = "768fed1b603fbf5a49ad002539e46c29",
+      ["README.md"] = "080c749ad6004b9efcca8dbd3a620fab"
+   },
+   lua = {
+      torchx = {
+         ["AliasMultinomial.lua"] = "2de279d02c99b3de1763451230b6ed2d",
+         ["MultiCudaTensor.lua"] = "a493f4c164aeb9fb79e766adb7d1fac5",
+         ["Queue.lua"] = "f7118aa5cbb8c071e34eb44820b788ef",
+         ["concat.lua"] = "56ee0864635e549fec4ce8afb9ca9e14",
+         ["dkjson.lua"] = "12c1dce9a53688ff29935c680b486a1a",
+         ["extend.lua"] = "a6d637e7f0fe732fd12e22516d60348c",
+         ["find.lua"] = "e4eed7436dc9abc5c4af8ef58a958958",
+         ["group.lua"] = "c990c5acb8d0dcf7bcc7580cd76a5e97",
+         ["indexdir.lua"] = "a0b32dce3df351aba404f19d12c238ba",
+         ["init.lua"] = "2afaa85db85fc11224f2d5102d3017b4",
+         ["md5.lua"] = "5240c89a9621f9b0569ba29a8b40fb4f",
+         ["recursivetensor.lua"] = "c059b94a28db0be635665833ba00cb0d",
+         ["remap.lua"] = "471e5bf41911cebb38559c0a7631c002",
+         ["test.lua"] = "e6fee4945526cbec395962f83b488b36",
+         ["treemax.lua"] = "32d008a3fa668051454380472c00cbe0"
+      }
+   },
+   ["torchx-scm-1.rockspec"] = "40f8179d2326ae138646c4b4e5241fab"
+}

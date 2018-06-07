@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libluajit.so -o libluajit.so CMakeFiles/libluajit.dir/src/ljamalg.c.o CMakeFiles/libluajit.dir/lj_vm.S.o -lreadline -ldl -lm -lncurses -lpthread 

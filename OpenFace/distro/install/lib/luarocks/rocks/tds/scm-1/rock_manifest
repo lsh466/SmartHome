@@ -1,0 +1,21 @@
+rock_manifest = {
+   doc = {
+      LICENSE = "1596c919985045b6760d677cf7f07ef0",
+      ["README.md"] = "a741d5d63be65dffbbbbf97af8f09608"
+   },
+   lib = {
+      ["libtds.so"] = "76d49819b1db0e3c654b4eea528705bc"
+   },
+   lua = {
+      tds = {
+         ["atomic.lua"] = "71498056a9ac2c2b236041c3158de882",
+         ["cdefs.lua"] = "31b4f34da994ea4ff169c92a4cbaf076",
+         ["elem.lua"] = "c0b4471ae1fda4ec828b284f5694382d",
+         ["env.lua"] = "2c91e9fef9382650fe64a080d44bcfc3",
+         ["hash.lua"] = "8bf875a4bfa74db720d55ab7ae181a33",
+         ["init.lua"] = "07c5698242c1e69a50dd3375f739a4b4",
+         ["vec.lua"] = "317d414822039edf5c33f39ad9531756"
+      }
+   },
+   ["tds-scm-1.rockspec"] = "2ada988905f7c01cd7df43b99d348fbd"
+}

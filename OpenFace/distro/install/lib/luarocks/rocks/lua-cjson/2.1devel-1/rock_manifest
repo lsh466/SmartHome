@@ -1,0 +1,33 @@
+rock_manifest = {
+   bin = {
+      json2lua = "0c1780c996b7d61595c489b8122690a7",
+      lua2json = "824d2392d8ff297f8e67eefcf5095ca6"
+   },
+   lib = {
+      ["cjson.so"] = "c54a44c8db87513c1a76ba2ba0447ccf"
+   },
+   lua = {
+      cjson = {
+         ["util.lua"] = "55f46b6d4bb162e1101a76b3100edec8"
+      },
+      ["json2lua.lua"] = "0c1780c996b7d61595c489b8122690a7",
+      ["lua2json.lua"] = "824d2392d8ff297f8e67eefcf5095ca6"
+   },
+   ["lua-cjson-2.1devel-1.rockspec"] = "9a66f1c22f1fdb30e580f566a8fd467c",
+   tests = {
+      README = "5b17c0066ab049a95fa903d81db96f13",
+      ["bench.lua"] = "4c407045e4b5363d21ced859f2babe9e",
+      ["example1.json"] = "2644c022f5735069ebf2fc90a40b8d52",
+      ["example2.json"] = "dde87999f5b4c89cc09afe18da272b0c",
+      ["example3.json"] = "c07e53fce3026038e13a46189ca7300a",
+      ["example4.json"] = "bcda867fce5f6b696b46c03323b1fc7d",
+      ["example5.json"] = "c26a1c1dc3769ae2cf919ef8294f6963",
+      ["genutf8.pl"] = "e5a6213639a30c7bf03d4c515debc162",
+      ["numbers.json"] = "504557f359b99da896c78e6d2810f8ff",
+      ["octets-escaped.dat"] = "b717fbfb188b81a7d916b930d451807f",
+      ["rfc-example1.json"] = "b149c43c90dc1d25cfef117185e09984",
+      ["rfc-example2.json"] = "402d946fb6e7e21535270cb82c092dfe",
+      ["test.lua"] = "ceeb7eea51a541306227f28d01ac7345",
+      ["types.json"] = "23525406f190a038b05bb3e5521c2265"
+   }
+}

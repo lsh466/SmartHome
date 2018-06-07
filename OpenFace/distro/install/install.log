@@ -1,0 +1,198 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Found readline library
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void*
+-- Check size of void* - done
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Looking for sin in m
+-- Looking for sin in m - found
+-- Looking for printw in ncurses
+-- Looking for printw in ncurses - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Performing Test LJ_TARGET_X64
+-- Performing Test LJ_TARGET_X64 - Success
+-- LuaJIT Target: x64
+-- LuaJIT target x64
+-- Performing Test LJ_ARCH_BITS_64
+-- Performing Test LJ_ARCH_BITS_64 - Success
+-- Performing Test LJ_HASJIT_1
+-- Performing Test LJ_HASJIT_1 - Success
+-- Performing Test LJ_HASFFI_1
+-- Performing Test LJ_HASFFI_1 - Success
+-- Performing Test LJ_DUALNUM_1
+-- Performing Test LJ_DUALNUM_1 - Failed
+-- Performing Test LJ_ARCH_HASFPU_1
+-- Performing Test LJ_ARCH_HASFPU_1 - Success
+-- Performing Test LJ_ABI_SOFTFP_1
+-- Performing Test LJ_ABI_SOFTFP_1 - Failed
+-- Looking for sin in m
+-- Looking for sin in m - found
+-- Found Wget: /usr/bin/wget  
+-- Found MD5: /usr/bin/md5sum  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lee/OpenFace/distro/build
+Scanning dependencies of target minilua
+[  2%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/minilua.dir/src/host/minilua.c.o
+[  5%] Linking C executable minilua
+[  5%] Built target minilua
+[  7%] Generating buildvm_arch.h
+Scanning dependencies of target buildvm
+[ 10%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/buildvm.dir/src/host/buildvm.c.o
+[ 12%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/buildvm.dir/src/host/buildvm_asm.c.o
+[ 15%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/buildvm.dir/src/host/buildvm_peobj.c.o
+[ 17%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/buildvm.dir/src/host/buildvm_lib.c.o
+[ 20%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/buildvm.dir/src/host/buildvm_fold.c.o
+[ 22%] Linking C executable buildvm
+[ 22%] Built target buildvm
+[ 25%] Generating vmdef.lua
+[ 27%] Generating lj_vm.S
+[ 30%] Generating lj_ffdef.h
+[ 32%] Generating lj_bcdef.h
+[ 35%] Generating lj_libdef.h
+[ 37%] Generating lj_recdef.h
+[ 40%] Generating lj_folddef.h
+Scanning dependencies of target luajit-static
+[ 42%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/luajit-static.dir/src/ljamalg.c.o
+[ 45%] Building ASM object exe/luajit-rocks/luajit-2.1/CMakeFiles/luajit-static.dir/lj_vm.S.o
+[ 47%] Linking C static library libluajit-static.a
+[ 47%] Built target luajit-static
+Scanning dependencies of target libluajit
+[ 50%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/libluajit.dir/src/ljamalg.c.o
+[ 52%] Building ASM object exe/luajit-rocks/luajit-2.1/CMakeFiles/libluajit.dir/lj_vm.S.o
+[ 55%] Linking C shared library libluajit.so
+[ 72%] Built target libluajit
+Scanning dependencies of target luajit
+[ 75%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/luajit.dir/src/luajit.c.o
+[ 77%] Building C object exe/luajit-rocks/luajit-2.1/CMakeFiles/luajit.dir/src/ljamalg.c.o
+[ 80%] Building ASM object exe/luajit-rocks/luajit-2.1/CMakeFiles/luajit.dir/lj_vm.S.o
+[ 82%] Linking C executable luajit
+[100%] Built target luajit
+[  5%] Built target minilua
+[ 22%] Built target buildvm
+[ 47%] Built target luajit-static
+[ 72%] Built target libluajit
+[100%] Built target luajit
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/lee/OpenFace/distro/install/include/luaconf.h
+-- Installing: /home/lee/OpenFace/distro/install/include/lua.h
+-- Installing: /home/lee/OpenFace/distro/install/include/lauxlib.h
+-- Installing: /home/lee/OpenFace/distro/install/include/lualib.h
+-- Installing: /home/lee/OpenFace/distro/install/include/lua.hpp
+-- Installing: /home/lee/OpenFace/distro/install/include/luajit.h
+-- Installing: /home/lee/OpenFace/distro/install/lib/libluajit.so
+-- Installing: /home/lee/OpenFace/distro/install/bin/luajit
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/bc.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/v.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/dump.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/dis_x86.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/dis_x64.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/dis_arm.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/dis_ppc.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/dis_mips.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/dis_mipsel.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/bcsave.lua
+-- Up-to-date: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/bc.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/p.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/zone.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/jit/vmdef.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/add.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/admin_remove.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/build/builtin.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/build/cmake.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/build/command.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/build/make.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/build.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/cache.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/cfg.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/command_line.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/config_cmd.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/deps.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/dir.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/doc.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/download.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/cvs.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/git.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/git_file.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/git_http.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/git_https.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/hg.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/hg_http.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/hg_https.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/hg_ssh.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/sscm.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch/svn.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fetch.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fs/lua.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fs/unix/tools.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fs/unix.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fs/win32/tools.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fs/win32.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/fs.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/help.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/index.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/install.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/lint.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/list.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/loader.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/make.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/make_manifest.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/manif.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/manif_core.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/new_version.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/pack.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/path.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/path_cmd.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/persist.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/purge.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/refresh_cache.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/remove.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/repos.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/require.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/search.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/show.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/tools/patch.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/tools/tar.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/tools/zip.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/type_check.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/unpack.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/upload/api.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/upload/multipart.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/upload.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/util.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/validate.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/write_rockspec.lua
+-- Installing: /home/lee/OpenFace/distro/install/share/lua/5.1/luarocks/site_config.lua
+-- Installing: /home/lee/OpenFace/distro/install/etc/luarocks/config.lua
+-- Installing: /home/lee/OpenFace/distro/install/bin/luarocks
+-- Installing: /home/lee/OpenFace/distro/install/bin/luarocks-admin

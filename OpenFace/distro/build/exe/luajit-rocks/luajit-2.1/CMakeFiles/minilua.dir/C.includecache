@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lee/OpenFace/distro/exe/luajit-rocks/luajit-2.1/src/host/minilua.c
+stddef.h
+-
+stdarg.h
+-
+limits.h
+-
+math.h
+-
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+setjmp.h
+-
+errno.h
+-
+time.h
+-
+

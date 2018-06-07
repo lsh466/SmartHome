@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -DNDEBUG  -Wl,--export-dynamic CMakeFiles/luajit.dir/src/luajit.c.o CMakeFiles/luajit.dir/src/ljamalg.c.o CMakeFiles/luajit.dir/lj_vm.S.o  -o luajit -rdynamic -lreadline -ldl -lm -lncurses -lpthread 
