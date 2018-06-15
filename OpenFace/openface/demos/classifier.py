@@ -179,7 +179,7 @@ def infer(args, multiple=False):
                 (le, clf) = pickle.load(f, encoding='latin1')
 
     for img in args.imgs:
-        print("\n=== {} ===".format(img))
+       # print("\n=== {} ===".format(img))
         reps = getRep(img, multiple)
         if len(reps) > 1:
             print("List of faces in image from left to right")
@@ -197,7 +197,7 @@ def infer(args, multiple=False):
                 print("Predict {} @ x={} with {:.2f} confidence.".format(person.decode('utf-8'), bbx,
                                                                          confidence))
             else:
-                print("Predict {} with {:.2f} confidence.".format(person.decode('utf-8'), confidence))
+                print("{}/{:.2f}".format(person.decode('utf-8'), confidence))
             if isinstance(clf, GMM):
                 dist = np.linalg.norm(rep - clf.means_[maxI])
                 print("  + Distance from the mean: {}".format(dist))
