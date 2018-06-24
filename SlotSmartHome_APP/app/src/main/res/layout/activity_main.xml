@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Slot Smart Home"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/lock_id"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:background="@drawable/lock"
+            android:gravity="bottom|right"
+
+            android:text="도어락"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/list_id"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:background="@drawable/list"
+            android:gravity="bottom|right"
+
+            android:text="출입 기록"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_margin="3dp"
+
+        >
+        <TableRow
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            >
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/fan"
+                android:id="@+id/fan_id"
+                android:layout_margin="5dp"
+                android:text="선풍기"
+                android:textSize="20dp"
+                android:gravity="bottom|right"
+                />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/window"
+                android:id="@+id/window_id"
+                android:layout_margin="5dp"
+                android:text="창문"
+                android:textSize="20dp"
+                android:gravity="bottom|right"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/humidifier"
+                android:id="@+id/humi_id"
+
+                android:text="가습기"
+                android:textSize="20dp"
+                android:gravity="bottom|right"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            >
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/temphumi"
+                android:id="@+id/dht_id"
+                android:layout_margin="5dp"
+                android:text="온습도"
+                android:textSize="20dp"
+                android:gravity="bottom|right"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/tv"
+                android:id="@+id/TV_id"
+                android:layout_margin="5dp"
+                android:text="TV"
+                android:textSize="20dp"
+                android:gravity="bottom|right"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/airconditioner"
+                android:id="@+id/air_id"
+                android:layout_margin="5dp"
+                android:text="에어컨"
+                android:textSize="20dp"
+                android:gravity="bottom|right"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/light_id"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:background="@drawable/light"
+                android:layout_margin="5dp"
+                android:text="전등"
+                android:textSize="20dp"
+                android:gravity="bottom|right"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/boiler"
+                android:id="@+id/boiler_id"
+                android:text="보일러"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:gravity="bottom|right"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:background="@drawable/gas"
+                android:id="@+id/gas_id"
+                android:layout_margin="5dp"
+                android:text="가스"
+                android:textSize="20dp"
+                android:gravity="bottom|right"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
