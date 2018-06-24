@@ -1,2 +1,0 @@
-/usr/bin/ar qc libluajit-static.a  CMakeFiles/luajit-static.dir/src/ljamalg.c.o CMakeFiles/luajit-static.dir/lj_vm.S.o
-/usr/bin/ranlib libluajit-static.a

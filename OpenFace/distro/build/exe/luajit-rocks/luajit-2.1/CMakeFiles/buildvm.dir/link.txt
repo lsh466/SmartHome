@@ -1,1 +1,0 @@
-/usr/bin/cc  -O3 -DNDEBUG   CMakeFiles/buildvm.dir/src/host/buildvm.c.o CMakeFiles/buildvm.dir/src/host/buildvm_asm.c.o CMakeFiles/buildvm.dir/src/host/buildvm_peobj.c.o CMakeFiles/buildvm.dir/src/host/buildvm_lib.c.o CMakeFiles/buildvm.dir/src/host/buildvm_fold.c.o  -o buildvm -rdynamic 

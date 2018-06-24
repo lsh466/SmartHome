@@ -1,3 +1,0 @@
-#!/bin/sh
-
-exec '/home/lee/OpenFace/distro/install/bin/luajit' -e 'package.path="/root/.luarocks/share/lua/5.1/?.lua;/root/.luarocks/share/lua/5.1/?/init.lua;/home/lee/OpenFace/distro/install/share/lua/5.1/?.lua;/home/lee/OpenFace/distro/install/share/lua/5.1/?/init.lua;"..package.path; package.cpath="/root/.luarocks/lib/lua/5.1/?.so;/home/lee/OpenFace/distro/install/lib/lua/5.1/?.so;"..package.cpath' -e 'local k,l,_=pcall(require,"luarocks.loader") _=k and l.add_context("trepl","scm-1")' '/home/lee/OpenFace/distro/install/lib/luarocks/rocks/trepl/scm-1/bin/th' "$@"

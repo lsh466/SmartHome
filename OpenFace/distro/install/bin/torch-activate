@@ -1,6 +1,0 @@
-export LUA_PATH='/root/.luarocks/share/lua/5.1/?.lua;/root/.luarocks/share/lua/5.1/?/init.lua;/home/lee/OpenFace/distro/install/share/lua/5.1/?.lua;/home/lee/OpenFace/distro/install/share/lua/5.1/?/init.lua;./?.lua;/home/lee/OpenFace/distro/install/share/luajit-2.1.0-beta1/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua'
-export LUA_CPATH='/root/.luarocks/lib/lua/5.1/?.so;/home/lee/OpenFace/distro/install/lib/lua/5.1/?.so;./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so'
-export PATH=/home/lee/OpenFace/distro/install/bin:$PATH
-export LD_LIBRARY_PATH=/home/lee/OpenFace/distro/install/lib:$LD_LIBRARY_PATH
-export DYLD_LIBRARY_PATH=/home/lee/OpenFace/distro/install/lib:$DYLD_LIBRARY_PATH
-export LUA_CPATH='/home/lee/OpenFace/distro/install/lib/?.so;'$LUA_CPATH
