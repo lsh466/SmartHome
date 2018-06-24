@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+9a45e672cf0f470a93b0a502db1dabb7 exe/luajit-rocks/luajit-2.1/buildvm_arch.h
+d8a1c03a5e0fe914993f017f4e395a53 exe/luajit-rocks/luajit-2.1/lj_bcdef.h
+6555fd16ffab2c4fb79d52626027e022 exe/luajit-rocks/luajit-2.1/lj_ffdef.h
+eb8d7872c1dc46e57ea32baa2a205c8f exe/luajit-rocks/luajit-2.1/lj_folddef.h
+120f84f0925e7fae7eaa63809f9a6c83 exe/luajit-rocks/luajit-2.1/lj_libdef.h
+c1367e6e635e7643ae879c7370bb14d0 exe/luajit-rocks/luajit-2.1/lj_recdef.h
+7be66fc53e8b28bdaa976d3bf46c8bb8 exe/luajit-rocks/luajit-2.1/lj_vm.S
+88c7a7364cdcbc4fc5439de3a673b2bd exe/luajit-rocks/luajit-2.1/vmdef.lua

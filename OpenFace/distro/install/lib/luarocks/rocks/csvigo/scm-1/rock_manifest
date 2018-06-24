@@ -1,0 +1,15 @@
+rock_manifest = {
+   ["csvigo-scm-1.rockspec"] = "ef9e3c96f95313fb13ebef03dc5a00d3",
+   doc = {
+      ["README.md"] = "3ac39b9c70be985827b237e79ab1f0e8"
+   },
+   lib = {
+      ["libcsvigo.so"] = "dd0a937af86b4ee8d167171ff82ec0fe"
+   },
+   lua = {
+      csvigo = {
+         ["File.lua"] = "c1085e565e016f89a49cac34fb82884e",
+         ["init.lua"] = "9263c5ee9c68426f4c28ef4736fdf464"
+      }
+   }
+}
